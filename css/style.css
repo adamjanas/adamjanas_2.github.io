@@ -595,6 +595,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 80%;
   float: left;
   margin-bottom: 30px;
+  margin-right:15px;
 }
 #gtco-our-team .gtco-team-reverse .img-shadow img,
 #gtco-our-team .gtco-team .img-shadow img {
