@@ -5,11 +5,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
@@ -1301,6 +1296,7 @@ form label {
 #xd{
   font-size:16pt;
   color:#777777;
+  margin-top:-15px;
 }
 #xdd{
   font-size:18pt;
