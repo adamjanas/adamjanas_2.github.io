@@ -5,6 +5,11 @@
   font-weight: normal;
   font-style: normal;
 }
+/* =======================================================
+*
+* 	Template Style 
+*
+* ======================================================= */
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
@@ -51,6 +56,7 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 30px;
+  font-size: 16pt;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -58,7 +64,6 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-
 }
 
 ::-webkit-selection {
@@ -109,13 +114,13 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.2s;
 }
 .gtco-nav #gtco-logo a {
+  padding: 0px 10px;
   color: #fff;
-  font-weight: 700;
+  font-weight: lighter;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  font-size:65px;
-  font-weight:lighter;
+  font-size: 65px;
   font-family: 'Great Vibes', cursive;
 }
 @media screen and (max-width: 768px) {
@@ -423,6 +428,9 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
+.row .gtco-copy p{
+  font-size:16px;
+}
 @media screen and (max-width: 768px) {
   .gtco-cover {
     height: 600px;
@@ -586,7 +594,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-our-team .gtco-team-reverse .img-shadow,
 #gtco-our-team .gtco-team .img-shadow {
   position: relative;
-  background:#c20de785;
+  background: #c20de785;
   width: 80%;
   float: left;
   margin-bottom: 30px;
@@ -677,7 +685,9 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-
+.read-more:hover i {
+  padding-left: 10px;
+}
 
 .gtco-social-icons {
   margin: 0;
@@ -721,7 +731,6 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 30px 0;
   list-style: none;
   position: relative;
-
 }
 .gtco-contact-info ul li:before {
   color: #000000;
@@ -798,6 +807,10 @@ form label {
   padding-top: 30px;
   background: #fafafa;
 }
+#gtco-footer .col-md-12 p {
+  font-size: 16px;
+}
+
 #gtco-footer .gtco-footer-links {
   padding: 0;
   margin: 0 0 20px 0;
@@ -1293,25 +1306,5 @@ form label {
 .js .animate-box {
   opacity: 0;
 }
-#xd{
-  font-size:16pt;
-  color:#777777;
-  margin-top:-15px;
-}
-#xdd{
-  font-size:18pt;
-}
-.heading .sub1:after {
-  bottom: 0;
-  left: 50%;
-  margin-left: -36px;
-  content: "";
-  position: absolute;
-  width: 72px;
-  height: 2px;
-  background: #c20de2;
-  
-}
-.col-sm-2.col-xs-12{
-  padding:0px
-}
+
+/*# sourceMappingURL=style.css.map */
